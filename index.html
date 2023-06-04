@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+<meta charset="UTF-8">
+<title>Сайт Павлова.С.А</title>
+<style type="text/css">
+a{
+color: #CC9966;
+text-decoration: none;
+}
+html{
+background: #FFF8CC;
+min-height: 100%;
+font-family: Helvetica;
+display: flex;
+flex-direction: column;
+}
+body{
+margin: 0;
+padding: 0 15px;
+display: flex;
+flex-direction: column;
+flex: auto;
+}
+h1{
+margin-top: 0;
+}
+h1, p{
+color: #006064;
+}
+img{
+border: 0;
+}
+.header{
+width: 100%;
+min-width: 460px;
+max-width: 960px;
+margin: 0 auto 30px;
+padding: 30px 0 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-sizing: border-box;
+}
+.logo{
+font-size: 1.5rem;
+color: #fff;
+text-decoration: none;
+margin: 5px 0 0 5px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex: none;
+align-items: center;
+background: #839FFF;
+width: 130px;
+height: 50px;
+}
+.nav{
+margin: -5px 0 0 -5px;
+display: flex;
+flex-wrap: wrap;
+}
+.nav-item{
+background: #BDC7FF;
+width: 130px;
+height: 50px;
+font-size: 1.5rem;
+color: #fff;
+text-decoration: none;
+display: flex;
+margin: 5px 0 0 5px;
+justify-content: center;
+align-items: center;
+}
+.sqr{
+height: 300px;
+width: 300px;
+background: #FFDB89;
+}
+
+.main{
+width: 100%;
+min-width: 460px;
+max-width: 960px;
+margin: auto;
+flex: auto;
+box-sizing: border-box;
+}
+.box{
+font-size: 1.25rem;
+line-height: 1.5;
+margin: 0 0 40px -50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.box-base{
+margin-left: 50px;
+flex: 1 0 430px;
+}
+.box-side{
+margin-left: 50px;
+font: none;
+}
+.box-img{
+max-width: 100%;
+height: auto;
+}
+.content{
+margin-bottom: 30px;
+display: flex;
+flex-wrap: wrap;
+}
+.banners{
+flex: 1 1 200px;
+}
+.banner{
+background: #FFDB89;
+width: 100%;
+min-width: 100px;
+min-height: 200px;
+font-size: 3rem;
+color: #fff;
+margin: 0 0 30px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.posts{
+margin: 0 0 30px 30px;
+flex: 1 1 200px;
+}
+.comments{
+margin: 0 0 30px 30px;
+flex: 1 1 200px;
+}
+.comment{
+display: flex;
+}
+.comment-side{
+padding-right: 20px;
+flex: none;
+}
+.comment-base{
+flex: auto;
+}
+.comment-avatar{
+background: #FFA985;
+width: 50px;
+height: 50px;
+}
+.footer{
+background: #FF3366;
+width: 100%;
+max-width: 960px;
+min-width: 460px;
+color: #fff;
+margin: auto;
+padding: 15px;
+box-sizing: border-box;
+}
+
+@media screen and  (max-width: 800px) {
+.banners{
+margin-left: -30px;
+display: flex;
+flex-basis: 100%;
+}
+.banner{
+margin-left: 30px;
+}
+.posts{
+margin-left: 0;
+}
+}
+@media screen and  (max-width: 600px) {
+.content{
+display: block;
+}
+.banners{
+margin: 0;
+display: block;
+}
+.banner{
+margin-left: 0;
+}
+.posts{
+margin: 0;
+}
+}
+</style>
+</head>
+<body>
+<header class="header">
+<a class="logo">
+PSA
+</a>
+<nav class="nav">
+<a href="#posts" class="nav-item">Посты</a>
+<a href="#comments" class="nav-item">Комменты</a>
+<a href="#footer" class="nav-item">Контакты</a>
+
+</nav>
+
+</header>
+<main class="main">
+<div class="box">
+<div class="box-base">
+<h1>Павлова Софья Алексеевна</h1>
+<h2>Краткая биография</h2>
+<b>Пол</b>
+<li>Женский</li>
+<b>Дата рождения</b>
+<li>05.07.2005</li>
+<b>Место рождения</b>
+<li>г.Улан-Удэ,Республика Бурятия</li>
+<b>Образование</b>
+<li>Основоное общее образование<a href="https://maou-17.buryatschool.ru"> МАОУ СОШ№17</a></li>
+<li>Студентка 2-го курса <a href="https://esstu.ru/">ВСГУТУ ТК</li></a>
+</div>
+<div class="box-side">
+<br>
+<div class="sqr"><img src="яяя.jpg" align="center" height="400">
+
+</div>
+</div>
+</div>
+<div class="content">
+<div class="banners">
+<div class="banner"><img src="я.jpg" align="center" height="300"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="banner"><img src="яя.jpg" align="center" height="300"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="banner"><img src="яяяя.jpg" align="center" height="300"></div>
+</div>
+<div class="posts"  id="posts">
+<div class="post">
+<h1>Происхождение имени Софья</h1>
+<p> Имя София (Софья) получило широкое распространение недавно, в связи с современной модой называть детей старинными именами. В переводе с греческого языка оно означает «мудрая», «премудрая», «мудрость», «знание». Образовалось от древнегреческого имени Софиа. В Россию имя пришло давно. Исследователи считают, что оно появилось одновременно с христианством. Вначале было распространено только среди аристократов, в царских семьях разных поколений. Позже начало встречаться среди дворянок.</p>
+</div>
+<div class="post">
+<br>
+<br>
+<h1>Особенности имени Софья</h1>
+<p>Женское имя, рассматриваемое нами, между тем очень глубокое и импульсивное. В нем будто заложена определенная серьезность и недоверие к собственной чувственности. Не зря в древние времена именно это слово выбирали для обозначения мудрости человека, достичь которой никак нельзя без глубины чувств. Ведь всем известно, что мудрость может приобрести лишь тот, кто сумеет привести в равновесие все свои глубочайшие переживания.</p>
+</div>
+<div class="post">
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1>Аналоги в других странах</h1>
+<p>Значение имени Софья для девочки известно многим жителям европейских стран. Это связано с тем, что в других государствах оно также становится довольно популярным среди новоиспеченных родителей. Хотя совсем необязательно, что оно будет звучать аналогичным образом. К примеру, в некоторых государствах имя София равноправно именам Зофья, Софи, Сонакай и даже Жофия.</p>
+</div>
+</div>
+<div class="comments"  id="comments">
+<div class="comment">
+<div class="comment-side">
+<div class="comment-avatar">
+
+</div>
+</div>
+<div class="comment-base">
+<h1 class="comment-title">Знак зодиака по дате рождения</h1>
+<p> Рак – самый предусмотрительный из всех знаков Зодиака. Легче всего отличить Рака от остальных, наблюдая за тем, как он идет к своей цели.</p>
+</div>
+</div>
+<div class="comment">
+<div class="comment-side">
+<div class="comment-avatar">
+
+
+<div class="comment">
+<div class="comment-side">
+<div class="comment-avatar">
+
+
+</div>
+</div>
+<div class="comment-base"> 
+<h1 class="comment-title">Китайский гороскоп</h1>
+<p> Человеку, рожденному в год Петуха по Китайскому гороскопу, Судьба приготовила много различных сюрпризов. В его жизни может быть немало взлетов и падений, однако даже когда обстоятельства складываются не в его пользу, он беспредельно верит в себя и в свои силы. </p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="footer"  id="footer">
+<center>
+<a href="https://vk.com/myaftt">Вконтакте</a>
+<a href="https://t.me/Myalft"> Telegram</a>
+</footer>
+</body>
+</html>
